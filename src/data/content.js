@@ -19,7 +19,7 @@ export const PROJECTS = [
 ];
       
 export const EXPERIENCE = [
-  { company: "AREA Energy", role: "Intern", period: "Incoming", bullets: ["Incoming intern for the summer of 2026."] },
+  { company: "AREA Energy", role: "Intern", period: "Ongoing", bullets: ["Curent intern for the summer of 2026."] },
   { company: "Hult Prize Foundation", role: "Logistics & IT Regional Lead", period: "2025 - 2026", bullets: ["Led a 5-member Logistics & IT team and coordinated operational planning across university and regional-stage entrepreneurship competitions involving 20+ organizing committee members and multiple startup teams.", "Directed the design of venue layouts, logistics workflows, and participant management systems to support the execution of workshops, training programs, and competition rounds.", "Developed the official Hult Prize @ NCKU website using Framer with custom-coded React components, implementing responsive design and interactive features to improve user experience."] },
   { company: "Parallax Coder", role: "Co-Founder, Web Developer", period: "2022 - 2024", bullets: [" Co-founded a nonprofit coding education initiative focused on increasing access to competitive programming education.", "Designed and developed the organization website and a certificate verification system used to validate student credentials."] },
   { company: "Algorithmics Indonesia", role: "Programming and Game Design Tutor", period: "2023", bullets: ["Earned Top Performing Tutor recognition twice for achieving the highest student retention rates across the Indonesia region.", "Mentored 100+ students in programming and computational thinking using Python, Lua, and Scratch.", "Selected to lead tutor development workshops focused on communication, motivation, and classroom management for 200+ peers."] },
@@ -35,13 +35,13 @@ export const HOBBIES = [
     highlight: "21.1 km",
     highlightLabel: "Half marathon finisher",
     description: "Completed my first half marathon in 2:04. Currently training for a sub-2hr. Running clears the mind in ways that nothing else does.",
-    tags: ["ZEPRO RUN Kaohsiung HM", "Sun Moon Lake Marathon 12k", "5k PR: 5:00/km"],
+    tags: ["ZEPRO RUN Kaohsiung 21k", "Sun Moon Lake Marathon 12k", "5k PR: 5:00/km"],
   },
   {
     emoji: "🧗‍♂️",
     title: "Bouldering",
     highlight: "V3 Climber",
-    highlightLabel: "(almost)",
+    highlightLabel: "Still on rental shoes",
     description: "Recently picked up bouldering and loving the blend of physical and mental challenge. Currently working on sending V3s at my local gym. Also making bouldering contents, check out @perbouldertive on your favorite social medias!",
     tags: ["@perbouldertive", "V0 Flasher", "Projecting V3s"],
   },
@@ -49,7 +49,7 @@ export const HOBBIES = [
     emoji: "🎸",
     title: "Guitar",
     highlight: "Self-taught",
-    highlightLabel: "and not so good at it",
+    highlightLabel: "Lead Guitar & Fingerstyle",
     description: "Self-taught. Don't really play that much nowadays but occasionally perform for school events.",
     tags: ["@meraki___band", "@theclubfiction", "Lead Guitarist"],
   },
