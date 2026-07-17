@@ -34,7 +34,7 @@ export const HOBBIES = [
     title: "Running",
     highlight: "21.1 km",
     highlightLabel: "Half marathon finisher",
-    description: "Completed my first half marathon in 2:04. Currently training for a sub-2hr. Running clears the mind in ways that nothing else does.",
+    description: "Completed my first half marathon in 2:20:03. Currently training for a sub-2hr. Running clears the mind in ways that nothing else does.",
     tags: ["ZEPRO RUN Kaohsiung 21k", "Sun Moon Lake Marathon 12k", "5k PR: 5:00/km"],
   },
   {
