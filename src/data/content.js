@@ -19,10 +19,50 @@ export const PROJECTS = [
 ];
       
 export const EXPERIENCE = [
-  { company: "AREA Energy", role: "Intern", period: "Ongoing", bullets: ["Curent intern for the summer of 2026."] },
-  { company: "Hult Prize Foundation", role: "Logistics & IT Regional Lead", period: "2025 - 2026", bullets: ["Led a 5-member Logistics & IT team and coordinated operational planning across university and regional-stage entrepreneurship competitions involving 20+ organizing committee members and multiple startup teams.", "Directed the design of venue layouts, logistics workflows, and participant management systems to support the execution of workshops, training programs, and competition rounds.", "Developed the official Hult Prize @ NCKU website using Framer with custom-coded React components, implementing responsive design and interactive features to improve user experience."] },
-  { company: "Parallax Coder", role: "Co-Founder, Web Developer", period: "2022 - 2024", bullets: [" Co-founded a nonprofit coding education initiative focused on increasing access to competitive programming education.", "Designed and developed the organization website and a certificate verification system used to validate student credentials."] },
-  { company: "Algorithmics Indonesia", role: "Programming and Game Design Tutor", period: "2023", bullets: ["Earned Top Performing Tutor recognition twice for achieving the highest student retention rates across the Indonesia region.", "Mentored 100+ students in programming and computational thinking using Python, Lua, and Scratch.", "Selected to lead tutor development workshops focused on communication, motivation, and classroom management for 200+ peers."] },
+  {
+    company: "AREA Energy",
+    role: "BIM Automation Intern",
+    period: "Jun 2026 - Sep 2026",
+    bullets: [
+      "Built a Python and AutoCAD Core Console pipeline that batch-processed 4,275 piping-isometric DWG files into structured Excel reports, extracting 38,048 BOM and 26,524 cut-pipe records with caching, parallel processing, and automated QA validation.",
+      "Built a Navisworks Manage → Revit pipe-support mapping extension using C#, .NET, WPF, Navisworks API, pyRevit, and Excel workflows to automate pipe matching, support-chain mapping, Revit Element ID recovery, and parameter imports.",
+      "Developed Python/pyRevit Revit API tools and a BIM QA/QC extension for pipe-support validation, naming-rule verification, clash detection, engineering model auditing, and AI-assisted review.",
+      "Built and deployed a Next.js application for one-click generation of company-formatted Excel work logs, reducing repetitive HR reporting and standardizing submissions across varying schedules.",
+      "Integrated and adapted open-source MCP servers for Revit, AutoCAD, and Navisworks, enabling AI-assisted access to BIM/CAD model data and engineering workflows."
+    ]
+
+  },
+  {
+    company: "Hult Prize Foundation",
+    role: "Logistics & IT Regional Lead",
+    period: "2025 - 2026",
+    bullets: [
+      "Led a 5-member Logistics & IT team and coordinated operational planning across university and regional-stage entrepreneurship competitions involving 20+ organizing committee members and multiple startup teams.",
+      "Directed the design of venue layouts, logistics workflows, and participant management systems to support the execution of workshops, training programs, and competition rounds.",
+      "Developed the official Hult Prize @ NCKU website using Framer with custom-coded React components, implementing responsive design and interactive features to improve user experience."
+    ]
+  },
+
+  {
+    company: "Parallax Coder",
+    role: "Co-Founder, Web Developer",
+    period: "2022 - 2024",
+    bullets: [
+      "Co-founded a nonprofit coding education initiative focused on increasing access to competitive programming education.",
+      "Designed and developed the organization website and a certificate verification system used to validate student credentials."
+    ]
+  },
+
+  {
+    company: "Algorithmics Indonesia",
+    role: "Programming and Game Design Tutor",
+    period: "2023",
+    bullets: [
+      "Earned Top Performing Tutor recognition twice for achieving the highest student retention rates across the Indonesia region.",
+      "Mentored 100+ students in programming and computational thinking using Python, Lua, and Scratch.",
+      "Selected to lead tutor development workshops focused on communication, motivation, and classroom management for 200+ peers."
+    ]
+  }
 ];
 
 // ── PERSONAL DATA ──────────────────────────────────────────────────────────────
