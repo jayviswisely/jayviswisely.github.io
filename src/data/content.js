@@ -20,6 +20,15 @@ export const PROJECTS = [
       
 export const EXPERIENCE = [
   {
+    company: "Taiwan Mobile",
+    role: "Technical Project Management Intern",
+    period: "Sep 2026",
+    bullets: [
+      "Incoming.",
+    ]
+  },
+
+  {
     company: "AREA Energy",
     role: "BIM Automation Intern",
     period: "Jun 2026 - Sep 2026",
