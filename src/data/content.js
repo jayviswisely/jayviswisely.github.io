@@ -24,7 +24,7 @@ export const EXPERIENCE = [
     role: "Technical Project Management Intern",
     period: "Sep 2026",
     bullets: [
-      "Incoming.",
+      "Incoming Intern at Taiwan Mobile’s Electronic Services Technology Division / Digital Platform Integration Department / AI Voice Application Development Section.",
     ]
   },
 
