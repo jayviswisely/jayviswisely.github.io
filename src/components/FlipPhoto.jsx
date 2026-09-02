@@ -6,6 +6,14 @@ export default function FlipPhoto({ isPersonal, onFlip }) {
   const [showPersonal, setShowPersonal] = useState(false);
 
   useEffect(() => {
+    const workImage = new Image();
+    workImage.src = WORK_PHOTO_URL;
+
+    const personalImage = new Image();
+    personalImage.src = PERSONAL_PHOTO_URL;
+  }, []);
+
+  useEffect(() => {
     if (isPersonal === showPersonal) return;
     setFlipping(true);
     const t = setTimeout(() => {
