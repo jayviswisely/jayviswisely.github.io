@@ -15,14 +15,13 @@ function WorkExperience() {
         {EXPERIENCE.map((exp, i) => (
           <FadeIn key={exp.company} delay={i * 0.08}>
             <div className="exp-row">
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "0.25rem", marginBottom: "0.4rem" }}>
-                <div>
-                  <span style={{ fontWeight: 500, fontSize: 15 }}>{exp.company}</span>
-                  <span style={{ color: "#8a8a84", fontSize: 14, marginLeft: 10 }}>{exp.role}</span>
+              <div className="exp-header">
+                <div className="exp-title">
+                  <span className="exp-company">{exp.company}</span>
+                  <span className="exp-role">{exp.role}</span>
                 </div>
-                <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#9a9990", letterSpacing: "0.04em" }}>
-                  {exp.period}
-                </span>
+
+                <span className="exp-period">{exp.period}</span>
               </div>
               <ul style={{ paddingLeft: "1rem", marginTop: "0.75rem", display: "flex", flexDirection: "column", gap: 6 }}>
                 {exp.bullets.map((b) => (

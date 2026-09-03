@@ -39,6 +39,59 @@ const globalStyles = `
     }
   }
 
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .exp-title {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .exp-company {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .exp-role {
+    color: #8a8a84;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .exp-period {
+    font-family: "DM Mono", monospace;
+    font-size: 11px;
+    color: #9a9990;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 768px) {
+    .exp-header {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .exp-title {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .exp-role {
+      margin-left: 0;
+      margin-top: 0.2rem;
+    }
+
+    .exp-period {
+      margin-top: 0.3rem;
+    }
+  }
+
   .nav-link {
     font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase;
     font-weight: 500; transition: opacity 0.15s; cursor: pointer;
