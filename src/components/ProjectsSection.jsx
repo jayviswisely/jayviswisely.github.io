@@ -11,7 +11,7 @@ function WorkProjects() {
         </p>
       </FadeIn>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "1rem" }}>
         {PROJECTS.map((p, i) => (
           <FadeIn key={p.title} delay={i * 0.07}>
             <div className="project-card">
