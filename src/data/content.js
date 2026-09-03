@@ -15,7 +15,7 @@ export const PROJECTS = [
   { title: "SEO PAA Analysis Dashboard",   description: "Full-stack SEO analytics platform that automates Google People Also Ask research, generates AI-powered content suggestions, and visualizes search insights through an interactive dashboard.", tags: ["Next.js", "PostgreSQL", "Google Gemini API"], link: "https://github.com/jayviswisely/seo-paa-dashboard" },
   { title: "NCKU TA Reservation System",     description: "A full-stack PHP and MySQL system for scheduling and managing TA consultations, developed as a university project to demonstrate database-driven application design.", tags: ["PHP", "MySQL", "JavaScript"], link: "https://github.com/jayviswisely/ta-reservation-system" },
   { title: "AniBoxd",   description: "Letterboxd-inspired web application that allows users to search, track, rate, and review anime. Built for anime fans who want a clean, modern platform to manage their watchlist and share thoughts on their favorite series.", tags: ["React", "Firebase", "Anilist API"], link: "https://aniboxd.netlify.app/" },
-  { title: "FilmFess",   description: "An anonymous confession platform where messages are paired with movies to capture feelings, memories, and vibes, because some emotions are cinematic.", tags: ["React", "Supabase", "TMDB API"], link: "https://github.com/jayviswisely/filmfess" },
+  { title: "FilmFess",   description: "An anonymous confession platform where messages are paired with movies to capture feelings, memories, and vibes, because some emotions are cinematic.", tags: ["React", "Supabase", "TMDB API"], link: "https://filmfess.netlify.app/" },
 ];
       
 export const EXPERIENCE = [
