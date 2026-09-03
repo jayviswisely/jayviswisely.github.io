@@ -17,7 +17,15 @@ function WorkProjects() {
             <div className="project-card">
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "0.6rem" }}>
                 <h3 style={{ fontWeight: 500, fontSize: 15 }}>{p.title}</h3>
-                <a href={p.link} style={{ fontSize: 14, color: "#9a9990", lineHeight: 1 }}>↗</a>
+                <a
+                  href={p.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Open ${p.title} in a new tab`}
+                  style={{ fontSize: 14, color: "#9a9990", lineHeight: 1 }}
+                >
+                  ↗
+                </a>
               </div>
               <p style={{ fontSize: 13.5, color: "#5a5a56", lineHeight: 1.65, marginBottom: "1rem" }}>{p.description}</p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
