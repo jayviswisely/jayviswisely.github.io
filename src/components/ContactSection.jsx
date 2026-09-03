@@ -20,7 +20,7 @@ export default function ContactSection() {
           Let's work together.
         </h2>
         <p style={{ fontSize: 16, color: "#4a4a46", lineHeight: 1.75, maxWidth: 460, marginBottom: "2rem" }}>
-          I'm currently open to new opportunities. Whether it's a full-time role, contract work, or an interesting side project — feel free to reach out.
+          I'm always open to interesting opportunities, collaborations, and side projects — feel free to reach out.
         </p>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
