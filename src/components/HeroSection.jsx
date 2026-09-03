@@ -45,7 +45,7 @@ export default function HeroSection({ isPersonal, onFlip }) {
             <p style={{ fontSize: 16, lineHeight: 1.75, color: "#4a4a46", marginBottom: "1.5rem" }}>
               {isPersonal
                 ? "Running, Bouldering, Guitar. In love with climbing plastic rocks lately."
-                : "Software engineer. AI & ML enthusiast. Based in Tainan, Taiwan."}
+                : "AI & ML enthusiast. IIM @ NCKU"}
             </p>
 
             <p style={{ fontSize: 12, color: "#b0aea8", fontStyle: "italic", marginBottom: "1.5rem" }}>

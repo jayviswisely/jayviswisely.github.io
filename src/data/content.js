@@ -90,8 +90,8 @@ export const HOBBIES = [
     emoji: "🧗‍♂️",
     title: "Bouldering",
     highlight: "V3 Climber",
-    highlightLabel: "Still on rental shoes",
-    description: "Recently picked up bouldering and loving the blend of physical and mental challenge. Currently working on sending V3s at my local gym. Also making bouldering contents, check out @perbouldertive on your favorite social medias!",
+    highlightLabel: "Flashing Burden of Dreams Next",
+    description: "Recently picked up bouldering and loving the blend of physical and mental challenge. Currently projecting V3s and making bouldering content at @perbouldertive on IG and TikTok!",
     tags: ["@perbouldertive", "V0 Flasher", "Projecting V3s"],
   },
   {
