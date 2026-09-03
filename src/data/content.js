@@ -21,10 +21,10 @@ export const PROJECTS = [
 export const EXPERIENCE = [
   {
     company: "Taiwan Mobile",
-    role: "Technical Project Management Intern",
+    role: "TPM Intern",
     period: "Sep 2026",
     bullets: [
-      "Incoming Intern at Taiwan Mobile’s Electronic Services Technology Division / Digital Platform Integration Department / AI Voice Application Development Section.",
+      "Incoming Technical Project Management Intern in the E-Service Technology Division.",
     ]
   },
 
