@@ -13,7 +13,11 @@ const PERSONAL_LINKS = [
 
 export default function HeroSection({ isPersonal, onFlip }) {
   return (
-    <section id="about" style={{ paddingTop: "6rem", paddingBottom: "5rem" }}>
+    <section
+      id="about"
+      className="hero-section"
+      style={{ paddingTop: "6rem", paddingBottom: "5rem" }}
+    >
       <div style={{ opacity: 0, animation: "fadeUp 0.7s ease 0.1s forwards" }}>
         <div style={{ display: "flex", gap: "2rem", alignItems: "flex-start", flexWrap: "wrap", marginBottom: "2rem" }}>
 

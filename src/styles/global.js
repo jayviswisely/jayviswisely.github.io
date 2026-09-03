@@ -22,6 +22,23 @@ const globalStyles = `
     width: 7px; height: 7px; border-radius: 50%; background: #1a1a18;
   }
 
+  .hero-section {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-section > div {
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .hero-section {
+      min-height: auto;
+      display: block;
+    }
+  }
+
   .nav-link {
     font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase;
     font-weight: 500; transition: opacity 0.15s; cursor: pointer;
